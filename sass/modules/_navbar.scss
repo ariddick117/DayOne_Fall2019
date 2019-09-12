@@ -1,0 +1,17 @@
+nav
+{
+    background-color: pink;
+
+ul
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    // nesting within the css reflects how it is in html
+    li { display: inline; }
+}
+
+a { text-decoration: none; }
+
+}
