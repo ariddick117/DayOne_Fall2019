@@ -1,10 +1,20 @@
 // imports go first -> grab _vars amd any other partials
 @import '_vars';
-@import 'modules/navbar';
+@import 'modules/_navbar';
+
+
+// import the user stuff
+@import 'modules/_users';
+
 
 body 
 { 
     color: $main-color;
+}
+
+body 
+{ 
+    color: $main-color; font-size: 10px; ;
 }
 
 h1, h2, h3 { color: $heading-color; }
